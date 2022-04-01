@@ -1,0 +1,20 @@
+{
+  "port": "80",
+  "cal_url": "CALENDAR_URL",
+  "key": "CUSTOM_KEY",
+  "rule_groups": [
+    {
+      "mode": 1,
+      "rules": {
+        "SUMMARY": "\\d"
+      }
+    },
+    {
+      "mode": 0,
+      "rules":{
+        "SUMMARY": "OR_FILTER_SUMMARY",
+        "LOCATION": "OR_FILTER_LOCATION"
+      }
+    }
+  ]
+}
